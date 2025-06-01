@@ -1,0 +1,361 @@
+/* Обнулення заголовків та параграфів */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* Обнулення списків */
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Робимо фото блочними */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Задаємо container */
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* стиль логотипу */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.home-link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+        }
+
+.logo {
+    color: #2e2f42;
+}
+
+/* стиль навігації */
+.page-navigation{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.link {
+color: #2e2f42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding: 24px 0;
+display: block;
+}
+
+.page-navigation .link:hover,
+.page-navigation .link:focus {
+    color: #404bbf;
+}
+
+/* стиль адресу */
+.address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.page-address {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    }
+
+.address-link {
+color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
+/* оформлення стилю першої секції
+стиль кнопки */
+.button-order {
+    background-color: #2e2f42;
+    padding: 188px 0;
+    }
+
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+       }
+   
+.button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
+}
+
+/* оформлення стилю другої секції */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-our {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-all {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    }
+
+.list-list {
+    width: calc((100% - 72px) / 4);
+}
+
+.our-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+/* оформлення стилю третьої секції */
+.our-team {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+    }
+
+.title-second {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2e2f42;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    }
+
+.list-empl {
+    display: flex;
+    gap: 24px;
+   }
+
+.employers {
+background-color: #ffffff;
+width: calc((100% - 72px) / 4);
+border-radius: 0 0 4px 4px;
+}
+
+.info {
+    padding: 32px 0;
+}
+
+.our-team-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.our-team-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* оформлення стилю четвертої секції */
+.portfolio .title-second {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2e2f42;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-port {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    }
+
+.portfolio-app {
+    width: calc((100% - 48px) / 3);
+    }
+
+.info-port {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+    }
+
+.portfolio-photo {
+    background-color: #ffffff;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+
+}
+
+.portfolio-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* оформлення футера та логотипу */
+.footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+       }
+
+.link-link {
+    font-size: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
+        }
+
+.footer-logo {
+    color: #f4f4fd;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+    height: 72px;
+}
